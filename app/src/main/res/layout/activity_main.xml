@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/background"
+    tools:context="com.example.juliousgill.carlift.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:text="C A R L I F T"
+            android:textSize="40dp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="HIRE"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textRiderApp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Searching For Rider App !!"
+        android:textSize="15sp"
+        android:textColor="@color/bottomText"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@+id/textRiderApp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:background="@drawable/btn_login_background"
+            android:textColor="@android:color/white"
+            android:text="LOGIN"
+            android:layout_marginRight="7dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:background="@drawable/btn_sign_up_background"
+            android:textColor="@color/btnSignUp"
+            android:text="SIGN UP"
+            android:layout_marginRight="7dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

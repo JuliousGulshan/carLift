@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck_home"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Ride"
+        android:id="@+id/btn_search"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offer Ride"
+        android:id="@+id/btn_ofrRide"
+        android:layout_below="@+id/btn_search"
+        android:layout_marginTop="65dp"
+        android:layout_alignLeft="@+id/btn_search"
+        android:layout_alignStart="@+id/btn_search"
+        android:layout_alignRight="@+id/btn_search"
+        android:layout_alignEnd="@+id/btn_search"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ride reminder"
+        android:id="@+id/btn_Rem"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/btn_ofrRide"
+        android:layout_marginLeft="50dp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:id="@+id/btn_weather"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/btn_Rem"
+        android:layout_marginLeft="50dp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+
+    <Button
+        android:id="@+id/btn_Logout"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/btn_weather"
+        android:layout_marginTop="90dp"
+        android:text="Log Out" />
+
+</RelativeLayout>

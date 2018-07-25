@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "396445894355",
+    "firebase_url": "https://carproject-77450.firebaseio.com",
+    "project_id": "carproject-77450",
+    "storage_bucket": "carproject-77450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396445894355:android:83425442c94da242",
+        "android_client_info": {
+          "package_name": "com.example.juliousgill.carlift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396445894355-2n8qsust4v5hlts86p848a1loe321khf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juliousgill.carlift",
+            "certificate_hash": "9b89f34269c37da0e4625b4b6d9e5795275dfe85"
+          }
+        },
+        {
+          "client_id": "396445894355-ev8rrfonq0cipuqsrlvqli1qkpavgua4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWBqIAux7PUTC3YGfOOX3nWlctfKChVLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396445894355-ev8rrfonq0cipuqsrlvqli1qkpavgua4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

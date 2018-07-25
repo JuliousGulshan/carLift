@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tx_origin"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dublin"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="To"
+        android:id="@+id/textViewTo"
+        android:layout_below="@+id/tx_origin"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+         />
+
+    <TextView
+        android:id="@+id/tx_destination"
+        android:layout_below="@+id/textViewTo"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cork"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/tx_date_time"
+        android:layout_below="@+id/tx_destination"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15/08/2018 - 03:00 pm "
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+    <TextView
+        android:id="@+id/tx_phone"
+        android:layout_below="@+id/tx_date_time"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+
+    <TextView
+        android:id="@+id/tx_car"
+        android:layout_below="@+id/tx_phone"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="02D2345"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+  <!--   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_booked"
+        android:text="Book Me"
+        android:layout_marginLeft="250dp"/>
+    -->
+
+
+
+
+</RelativeLayout>
